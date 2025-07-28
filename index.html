@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+</head>
+<body>
+    
+    <!-- 
+        Day la chu thich 
+    -->
+    <h1> Day la tieu de 1 </h1>
+
+    <!-- The doan van -->
+    <!-- An Alt + Z de hien thi doan van tu dong xuong dong -->
+    <p>
+        Minh moi day, van con mac ngu, <b>mieng cu ha ra ha vao nhu con ca tre</b>, <u>hehehehehehe</u>
+    </p>
+
+    <!-- The tao lien ket - link  -->
+    <a href="https://kenh14.vn" title="Kenh14nhahehee">Di chuyen den kenh 14</a>
+    <!-- mo link newtab - target="_blank" -->
+    <!-- nho dung thuoc tinh rel="noreferrer noopener"  de bao mat ngan lo hong bao mat
+    rel: chi moi quan he trang hien tai(index.html) va trang lien ket(kenh14)
+    -->
+    <a href="https://kenh14.vn" title="an toan" rel="noreferrer noopener"> Di chuyen den kenh 14 an toan</a>
+
+    <!-- link tai file -->
+    <a href="./assets/test.jpg" download="tenfile.jpg">tai anh</a>
+
+    <!-- chen hinh -->
+    <img src="./assets/test.jpg" alt="test" height="300px" width="400px">
+    <!-- 
+    Vi hinh anh rat nang nen can chuyen sang dinh dang WEBP
+    https://cloudinary.com/tools/image-to-webp 
+    -->
+    <!-- sau khi doi sang WEBP -->
+    <img src="./assets/test.webp" alt="test" height="300px" width="400px">
+
+    <!-- chen video -->
+    <!-- type="video/mp4" dinh dang video -->
+    <!-- controls : cac thanh cong cu play pause ,... -->
+    <!-- cach 1 -->
+    <video src="./assets/video1.mp4"
+        type="video/mp4"
+        height="300px"
+        width="300px"
+        controls
+        autoplay
+        muted
+    ></video>
+    <br>
+    <!-- cach 2: chuyen nghiep -->
+    <video poster="./assets/test.webp" controls height="300px" width="300px" >
+        <!-- can nhieu source voi cac dinh dang khac nhau vi nhieu trinh duyet khong ho tro dinh dang -->
+        <source src="./assets/video2.webm" type="video/webm" >
+
+        <source src="./assets/video2.mp4" type="video/mp4">
+    </video>
+    
+    <!-- chen audio -->
+    <!-- doi dinh dang : https://convertio.co/vn/ -->
+    <audio controls>
+        <source src="./assets/Project_10.mp3" type="audio/mp3">
+        <source src="./assets/Project_10.mp3" type="audio/wav">
+    </audio>
+
+    <!-- Danh sach -->
+    
+</body>
+</html>
