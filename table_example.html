@@ -90,6 +90,9 @@
       <caption>
         Món Ăn Truyền Thống Trong Tết
       </caption>
+      
+      <!-- <thead></thead> <tbody></tbody> <tfoot></tfoot> : Chia bang du lieu thanh 3 phan ro rang -->
+
       <thead>
         <tr>
           <th scope="col">Món Ăn</th>
@@ -109,6 +112,7 @@
           <td>Khắp cả nước</td>
         </tr>
         <tr>
+          <!-- scope : xac dinh vai tro tieu de cua cot/hang -->
           <th scope="row">Thịt Đông</th>
           <td>Biểu tượng cho sự gắn kết và đông đúc</td>
           <td>Miền Bắc</td>
@@ -121,6 +125,7 @@
       </tbody>
       <tfoot>
         <tr>
+          <!-- colspan="2" : gop 2 cot lai voi nhau -->
           <th scope="row" colspan="2">Số món phổ biến</th>
           <td>4</td>
         </tr>
@@ -131,12 +136,14 @@
         Ví dụ 3
     -->
     <table>
+      <!-- <colgroup></colgroup> : nhom cot lai voi nhau  -->
       <colgroup>
         <col style="background-color: #ffffff" span="2" />
         <col style="background-color: rgb(255, 255, 187)" span="2" />
       </colgroup>
       <thead>
         <tr>
+          <!-- rowspan="2" gop 2 hang lai voi nhau -->
           <th scope="col" rowspan="2">Ngân hàng</th>
           <th scope="col" rowspan="2">Kỳ hạn</th>
           <th scope="col" colspan="2">Lãi suất (%/năm)</th>

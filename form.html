@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <!-- form co chuc nang gui thong tin den mot dia chi( endpoint ) -->
+    
+    <form action="login">
+        <!-- tao nhan cho o nhap du lieu -->
+        <!-- for : lien ket nhan voi mot phan tu cua form -->
+        <!-- gia tri for phai trung voi ID cua phan tu lien ket -->
+        
+        <!-- Email -->
+        <label for="email" >Email: </label>
+        <br>
+        <!-- name="" : La thuoc tinh co gia tri thuong giong voi id
+        trong input can ca name="" va id=""
+        ca hai deu dung de dinh danh
+        name: dung de nhan dien trong tin trong form
+        (name: dung de dat ten cho du lieu trong form)
+        id: dung de nhan dien phan tu trong HTML
+        (VD: kien ket the label voi input thong qua ID) -->
+        <input type="email" id="email" placeholder="example@gmail.com" required>
+        <br>
+        <br>
+        <!-- Password -->
+        <label for="password" >Password: </label>
+        <br>
+        <input type="password" id="password" required>
+        <br>
+        <br>
+        <!-- user bam se gui form di -->
+        <button>Dang nhap</button>
+    </form>
+</body>
+</html>
