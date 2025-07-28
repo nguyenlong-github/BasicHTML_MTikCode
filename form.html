@@ -16,20 +16,47 @@
         <!-- Email -->
         <label for="email" >Email: </label>
         <br>
-        <!-- name="" : La thuoc tinh co gia tri thuong giong voi id
-        trong input can ca name="" va id=""
+        <!--
+        - name="" : La thuoc tinh co gia tri thuong giong voi id
+        - trong input can ca name="" va id=""
         ca hai deu dung de dinh danh
-        name: dung de nhan dien trong tin trong form
+        - name: dung de nhan dien trong tin trong form
         (name: dung de dat ten cho du lieu trong form)
-        id: dung de nhan dien phan tu trong HTML
-        (VD: kien ket the label voi input thong qua ID) -->
-        <input type="email" id="email" placeholder="example@gmail.com" required>
+        - id: dung de nhan dien phan tu trong HTML
+        (VD: kien ket the label voi input thong qua ID) 
+        - name va id thuong dat giong nhau nhung khong bat buoc giong nhau
+        -->
+        <input 
+            type="email"
+            name="email"
+            id="email"
+            placeholder="example@gmail.com"
+            required
+        />
         <br>
         <br>
         <!-- Password -->
         <label for="password" >Password: </label>
         <br>
-        <input type="password" id="password" required>
+        <input 
+        type="password"
+        name="password"
+        id="password" 
+        required
+        />
+        <br>
+        <br>
+        <!-- checkbox: ghi nho password -->
+        <label for="remember-password">
+            <!-- dat input ben trong lable vi muon lable nam o ben hong (trai/ phai) o du lieu -->
+            Remember me
+            <input 
+                type="checkbox"
+                name="remember-password"
+                id="remember-password"
+
+            />
+        </label>
         <br>
         <br>
         <!-- user bam se gui form di -->
