@@ -6,6 +6,111 @@
     <title>Document</title>
 </head>
 <body>
+    <h1>Đơn Tham Gia Cộng Đồng Beat Maker</h1>
+    <br><br>
+    <p>Chào mừng bạn đến với hội những người đam mê âm nhạc, luôn có những nhịp beat vang sẵn trong đầu</p>
+
+    <form action="">
+        <!-- Họ và tên  -->
+        <!-- Mặc định size="" có 20 ký tự -->
+        <label for="fullname">Họ và tên</label>
+        <input type="text"
+        name="fullname"
+        id="fullname"
+        required
+        placeholder="VD: Playboi Cà ri"
+        size="30">
+        <br><br>
+        <!-- Email -->
+        <label for="email">Email</label>
+        <input type="email"
+        name="email"
+        id="email"
+        required
+        placeholder="VD: playboicari@gmail.com"
+        size="30">
+        <br><br>
+
+        <!-- dream -->
+        <!-- cols="50" chứa được 50 ký tự -->
+        <!-- spellcheck : kiểm tra lỗi chính tả  -->
+        
+        <label for="dream">Bạn muốn tương lai được hợp tác với ca sĩ, rapper nào. Hay đâu là producer truyền cảm hứng cho bạn</label>
+        <textarea name="dream" id="dream" placeholder=" Juice Wrld, Playboi Carti,..."
+        rows="5"
+        cols="50" spellcheck=""></textarea>
+        <br><br>
+
+        <!-- Giới Tính  -->
+        <!-- <fieldset></fieldset>
+        Tạo một khung nhóm phân vùng các phần tử bên trong , sử dụng trong form dài và phức tạp -->
+        <!-- <legend></legend>: Tạo tiêu đề  -->
+
+        <!-- Trong ví dụ này, giới tính có 3 giá trị:
+        - Nam
+        - Nữ
+        - Khác
+        Để cho người dùng chỉ được phép 1 trong 3
+        thì cả 3 phải trung thuộc tính name="gender"
+        vì html sẽ nhóm các thẻ input có thuộc tính name="" lại với nhau giúp cho người dùng chỉ chọn 1 trong đó.
+        Để HTML biết được giá trị của chúng là gì thì dùng thuộc tính value=""
+        -->
+        <fieldset>
+            <legend> Giới tính của bạn:</legend>
+            <label for="male">
+                <input type="radio" name="gender" id="male" value="male"> Nam
+                <br><br>
+                <label for="female">
+                <input type="radio" name="gender" id="female" value="female"> Nữ
+                <br><br>
+                <label for="other">
+                <input type="radio" name="gender" id="other" value="other"> Khác
+            </label>
+        </fieldset>
+        <br><br>
+
+        <!-- Phần bạn thích làm nhất trong bài nhạc -->
+        <label for="position">Đâu là phần bạn thích làm nhất trong đoạn beat</label>
+        <!-- <select></select> thẻ tạo danh sách đổ xuoosnh droplist -->
+        <!-- <option value=""></option> tao ra tung muc trong danh sách  -->
+        <select name="position" id="position">
+            <option value="sound selection">Lựa chọn âm thanh nhạc cụ (Sound selection)</option>
+            <option value="drums">Tạo bộ Trống (Drums)</option>
+            <option value="beat">Sáng tạo nhạc(Melody, Chord,...)</option>
+            <option value="mixing">Mixing</option>
+        </select>
+        <br><br>
+        
+        <!-- Thời gian đã làm nhạc  -->
+        <!-- step="" giúp số lượng bước tiến hoặc lùi khi ấn mũi tên  -->
+        <label for="music-experience">Bạn đã làm nhạc được bao lâu rồi (nếu dưới 1 năm chọn 1 nha)</label>
+        <input type="number" name="music-experience" id="music-experience" min="1" max="100" step="1">
+        <br><br>
+
+        <!-- Tên nghệ sĩ yêu thích (Dropdown dạng gợi ý) -->
+        <!-- list="" input sẽ lấy gợi ý từ datalist -->
+        <label for="favorite-artist">Tên nghệ sĩ bạn yêu thích (Biết đâu chúng ta chung sở thích thì sao )</label>
+        <input type="text" id="favorite-artist" name="favorite-artist" list="artist">
+        <datalist id="artist" >
+            <option value="Juice Wrld">Juice Wrld</option>
+            <option value="Playboi Carti">Playboi Carti</option>
+            <option value="Liz UziVert">Liz UziVert</option>
+            <option value="King Von">King Von</option>
+        </datalist>
+        <br><br>
+
+        <!-- Cam kết  -->
+        <p>
+            <b>Cùng nhau phát triển nhé</b>
+        </p>
+        <label for="agree">Let's Goooo</label>
+        <input type="checkbox" name="agree" id="agree" checked>
+        <br><br>
+        <!-- Nút Button -->
+        <button type="submit">Gửi (Let Me Cook)</button>
+        <button type="reset">Xóa Hết (Mình muốn bạn hiểu rõ mình hơn)</button>
+        <button type="button"></button>
+    </form>
     
 </body>
 </html>
