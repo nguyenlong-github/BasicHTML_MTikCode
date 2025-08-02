@@ -16,6 +16,7 @@
 - Tác dụng của các thẻ tag
 - Các thuộc tính của thẻ
 - Xây dựng một trang html cơ bản 
+- Tổ hợp phím tắt giúp việc code nhanh hơn
 <br>
 
 ---
