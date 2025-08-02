@@ -2,7 +2,7 @@
 ### Tại sao vậy ???
 <table>
     <tr>
-        <td>Tại mình hồi đi học lười học nên học chẳng hiểu gì, <br>nên bây giờ mình muốn bắt đầu lại từ đầu</td>
+        <td>Tại ngày xưa lười nên học chẳng hiểu gì, <br>bây giờ mình muốn bắt đầu lại từ đầu mua hehe</td>
         <td>
             <img src="assets\cry_cat.webp" alt="meo khoc huhu" width="280" height="180" style="display:block; margin:auto;">
         </td>
