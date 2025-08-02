@@ -17,7 +17,9 @@
 - Các thuộc tính của thẻ
 - Xây dựng một trang html cơ bản 
 <br>
+
 ---
+
 ### Cảm nhận của mình về `MTikCode`
 
 <table>
