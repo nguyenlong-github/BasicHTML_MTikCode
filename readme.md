@@ -11,7 +11,6 @@
 </table>
 <br>
 
----
 
 ### Things to Learn
 - HTML File Structure
@@ -21,7 +20,6 @@
 - Shortcut Keys to Speed Up Coding  
 <br>
 
----
 
 ### My Thoughts on `MTikCode`
 
@@ -42,17 +40,14 @@
   </td>
 </tr>
 </table>
-
----
+<br>
 
 ### MTikCode YouTube Channel Link Below ↓↓↓↓
-
 [Link to YouTube Channel](https://www.youtube.com/@MTikCode)
 
 <br>
 <br>
 <br>
-
 
 
 # Học lại HTML từ đầu
@@ -69,7 +64,6 @@
 
 <br>
 
----
 
 ### Những thứ sẽ học
 - Cấu trúc File HTML
@@ -79,7 +73,6 @@
 - Tổ hợp phím tắt giúp việc code nhanh hơn
 <br>
 
----
 
 ### Cảm nhận của mình về `MTikCode`
 
@@ -102,12 +95,14 @@
 </table>
 
 
----
 
 ### Link Kênh Youtube Kênh MTikCode Ở Bên Dưới Nhé ↓↓↓↓
 
 [Link Tới Kênh Youtube](https://www.youtube.com/@MTikCode)
 
+<br>
+
+---
 
 
 
